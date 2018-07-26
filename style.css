@@ -1,0 +1,52 @@
+body {
+	margin: 0 auto;
+}
+
+/* Welcome section */
+.hero {
+	background-image: url(http://cdn.playbuzz.com/cdn/14e08d61-3110-4e6c-93b2-ae57c9acc7d0/7b0048a2-c4fe-4cd3-8ed7-0bb2d669ee92.jpg);
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	background-position: 40% 60%;
+}	
+
+.hero > h1 {
+	text-align: center;
+	color: #FFF;
+	margin: 0;
+	padding-top: 43vh;
+	text-shadow: 2px 2px 5px #000;
+	font-size: 45px;
+}
+
+/* Song */
+.container {
+	width: 40%;
+	max-width: 500px;
+	margin: 20px auto;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 2px 2px 20px #444;
+	text-align: center;
+}
+
+.content > p {
+	font-size: 20px;
+	word-spacing: 5px;
+}
+
+/* Footer */ 
+.footer {
+	background-color: #899096;
+	height: 100px;
+}
+
+.footer > p {
+	font-size: 45px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+}
